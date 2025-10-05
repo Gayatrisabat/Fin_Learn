@@ -11,6 +11,7 @@ import { Dashboard } from "./pages/Dashboard";
 import { ModuleDetail } from "./pages/ModuleDetail";
 import { ChapterView } from "./pages/ChapterView";
 import NotFound from "./pages/NotFound";
+import { ChatWidget } from "./components/ChatWidget";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +31,7 @@ const App = () => (
           <Route path="/chapter/:moduleId/:chapterId" element={<ChapterView />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <ChatWidget />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
