@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
+# 💰 FinLearn — Personalized Financial Literacy Platform  
 
-## Project info
+FinLearn is a **modern web-based financial literacy platform** designed for individuals aged **16–26**.  
+It simplifies complex financial topics through **personalized learning paths**, **interactive lessons**, **gamified quizzes**, and **progress tracking** — helping young adults gain confidence in managing their money.
 
-**URL**: https://lovable.dev/projects/6b4f36ca-3383-4690-b569-16a8941a74bb
+---
 
-## How can I edit this code?
+## 🚀 Key Features  
 
-There are several ways of editing your application.
+- 🎯 **Personalized Learning Paths**  
+  Users answer a few onboarding questions, and the app tailors a custom financial learning journey based on age, goals, and interests.
 
-**Use Lovable**
+- 📚 **12 Structured Learning Modules**  
+  Covers everything from **Budgeting**, **Saving**, and **Investing** to **Tax**, **Digital Finance**, and **Entrepreneurship**.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6b4f36ca-3383-4690-b569-16a8941a74bb) and start prompting.
+- 🧩 **Engaging Learning Flow**  
+  Each module includes:
+  - Short **intro videos (YouTube)**
+  - **Flashcards** for quick revision
+  - **Mini quizzes (5 questions)** after each chapter  
+  - **Automatic module unlocking** after passing (≥3/5 correct)
 
-Changes made via Lovable will be committed automatically to this repo.
+- 📈 **Progress Tracking System**  
+  A visual progress bar and achievement levels:
+  - 🥉 Beginner – 50%  
+  - 🥈 Intermediate – 75%  
+  - 🥇 Advanced – 95%  
 
-**Use your preferred IDE**
+- 🌗 **Dark & Light Theme**  
+  Seamless modern UI with a toggle for both modes.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- ✨ **Smooth Animations & Interactions**  
+  Powered by **Framer Motion** and **Tailwind transitions**:
+  - Animated modals and cards on hover or click  
+  - Page transitions (fade/slide effects)  
+  - Progress bar animation updates in real time  
+  - Subtle button and input feedback animations  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 🤖 **Future Integrations**  
+  - **Supabase:** For authentication & user data storage  
+  - **Gemini API:** For personalized AI learning guidance and chatbot  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+## 🧠 Tech Stack  
+
+| Category | Technology |
+|-----------|-------------|
+| Frontend | React + TypeScript + Vite |
+| UI Library | shadcn/ui |
+| Styling | Tailwind CSS |
+| Animation | Framer Motion |
+| Future Backend | Supabase (Auth + DB) |
+| AI Layer | Gemini API |
+| Hosting | Lovable Platform |
+
+---
+
+## 💬 Gemini Chatbot (Coming Soon)  
+
+FinLearn will soon include **FinBot**, a Gemini-powered chatbot that:  
+- Answers **finance-related** and **app support** queries.  
+- Uses **simple, professional English**.  
+- Politely redirects if asked unrelated questions.  
+
+Example reply:  
+> “I can only assist with financial topics or FinLearn app-related issues. Please ask something related to those.”
+
+---
+
+## 🛠️ How to Edit and Run the Project  
+
+You can modify and preview FinLearn using any of the following methods:
+
+---
+
+### 🩵 **Option 1: Use Lovable (Recommended)**  
+
+Visit your project:  
+👉 [FinLearn on Lovable](https://lovable.dev/projects/6b4f36ca-3383-4690-b569-16a8941a74bb)  
+
+- Start prompting and editing directly.  
+- Changes are auto-committed to your GitHub repo.  
+
+---
+
+### 💻 **Option 2: Local Development (IDE)**  
+
+Requirements: **Node.js + npm**  
+([Install using nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
+
+```bash
+# Clone your repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Go to project folder
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Run development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6b4f36ca-3383-4690-b569-16a8941a74bb) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
